@@ -1,0 +1,87 @@
+[
+
+    {
+        "name": "Mani",
+        "price": 50,
+        "description": "designer",
+        "ratings": "0",
+        "images": [
+            {
+                "image": "http://13.60.156.8:8000/uploads/product/Screenshot_20240704-160859_Instagram.jpg",
+                "_id": "66b23819539f9243958542f3"
+            }
+        ],
+        "category": "male",
+        "seller": "chennai",
+        "stock": 10,
+        "designer": "",
+        "office": "chennai",
+        "address": "",
+        "email": "mani@gmail.com",
+        "estadate": "",
+        "lable": "",
+        "lablelink": "",
+        "lable1": "",
+        "lablelink1": "",
+        "lable2": "",
+        "lablelink2": "",
+        "lable3": "",
+        "lablelink3": "",
+        "profile": "",
+        "special": "CLOTHING",
+        "specialpara": "",
+        "special1": "",
+        "specialpara1": "",
+        "special2": "",
+        "specialpara2": "",
+        "special3": "",
+        "specialpara3": "",
+        "special4": "",
+        "specialpara4": "",
+        "instagram": "",
+        "x": "",
+        "facebook": "",
+        "women": "",
+        "womendatas": [
+            ""
+        ],
+        "men": "",
+        "mendatas": [
+            ""
+        ],
+        "child": "",
+        "childdatas": [
+            ""
+        ],
+        "access": "",
+        "accessdatas": [
+            ""
+        ],
+        "jewell": "",
+        "jewelldatas": [
+            ""
+        ],
+        "foot": "",
+        "footdatas": [
+            ""
+        ],
+        "store": "",
+        "storelink": "",
+        "store1": "",
+        "storelink1": "",
+        "store2": "",
+        "storelink2": "",
+        "store3": "",
+        "storelink3": "",
+        "city": "",
+        "citylink": "",
+        "city1": "",
+        "citylink1": "",
+        "city2": "",
+        "citylink2": "",
+        "city3": "",
+        "citylink3": "",
+        "gallerytitle": "Clothing",
+        "status": "success"
+    }
+]
