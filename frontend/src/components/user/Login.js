@@ -99,9 +99,9 @@ export default function Login() {
                                             />
                                             <div className="password-toggle" onClick={togglePasswordVisibility}>
                                                 {showPassword ? (
-                                                    <img src="/images/eye-open.svg" alt="hide" />
+                                                    <img src="/images/openeye.svg" alt="hide" />
                                                 ) : (
-                                                    <img src="/images/eye-closed.svg" alt="show" />
+                                                    <img src="/images/closeeye.svg" alt="show" />
                                                 )}
                                             </div>
                                     </div>
