@@ -161,14 +161,14 @@ export default function ProductDetail() {
                     <a id="hhbnvhj" href={product.lablelink3}> <p>{product.lable3}</p></a>
 
                   </div>
-                <div className="ytghjfjgyukj">
-                <div id='fijhguykeld' >
-                     {/* <img src='/images/li.svg' alt="footer" /> */}
-                   <a href={product.x}>  <img src='/images/x.svg' alt="footer" /></a>
-                   <a href={product.instagram}>  <img src='/images/ins.svg' alt="footer" /></a>
-                   <a href={product.facebook}> <img src='/images/face.svg' alt="footer" /></a>
-                 </div>
-                </div>
+                  <div className="ytghjfjgyukj">
+                    <div id='fijhguykeld' >
+                      {/* <img src='/images/li.svg' alt="footer" /> */}
+                      <a href={product.x}>  <img src='/images/x.svg' alt="footer" /></a>
+                      <a href={product.instagram}>  <img src='/images/ins.svg' alt="footer" /></a>
+                      <a href={product.facebook}> <img src='/images/face.svg' alt="footer" /></a>
+                    </div>
+                  </div>
                 </div>
                 <div className="yuf7iimage">
                   <div className="imagesingke">
@@ -241,33 +241,33 @@ export default function ProductDetail() {
                   }
                   {
                     state.title === "Specialisation" ? <div>
-                   <p>
+                      <p>
                         {
-                          product.special && <p><span className="gdfy">- {product.special} :</span> {product.specialpara}  </p> 
+                          product.special && <p><span className="gdfy">- {product.special} :</span> {product.specialpara}  </p>
                         }
-                        </p>
-                   <p>
+                      </p>
+                      <p>
                         {
-                          product.special1 && <p><span className="gdfy">- {product.special1} :</span> {product.specialpara1}  </p> 
+                          product.special1 && <p><span className="gdfy">- {product.special1} :</span> {product.specialpara1}  </p>
                         }
-                        </p>
-                   <p>
+                      </p>
+                      <p>
                         {
-                          product.special2 && <p><span className="gdfy">- {product.special2} :</span> {product.specialpara2}  </p> 
+                          product.special2 && <p><span className="gdfy">- {product.special2} :</span> {product.specialpara2}  </p>
                         }
-                        </p>
-                   <p>
+                      </p>
+                      <p>
                         {
-                          product.special3 && <p><span className="gdfy">- {product.special3} :</span> {product.specialpara3}  </p> 
+                          product.special3 && <p><span className="gdfy">- {product.special3} :</span> {product.specialpara3}  </p>
                         }
-                        </p>
-                   <p>
+                      </p>
+                      <p>
                         {
-                          product.special4 && <p><span className="gdfy">- {product.special4} :</span> {product.specialpara4}  </p> 
+                          product.special4 && <p><span className="gdfy">- {product.special4} :</span> {product.specialpara4}  </p>
                         }
-                        </p>
-             
-               
+                      </p>
+
+
                     </div> : ""
                   }
                   {
@@ -310,7 +310,7 @@ export default function ProductDetail() {
                           product.foot && <p>- {product.foot}  ( {product.footdatas} ) </p>
                         }
                       </p>
-                   
+
                     </div> : ""
                   }
                   {
@@ -319,18 +319,18 @@ export default function ProductDetail() {
                         <p className="ordersl"><b>{state.firstpara}</b></p>
                         <div className="line"></div>
                         {
-                          product.store &&  <a id="hhbnvhj" href={product.storelink}> <p className="yugfhb" id="address"><b>{product.store}</b></p></a>
+                          product.store && <a id="hhbnvhj" href={product.storelink}> <p className="yugfhb" id="address"><b>{product.store}</b></p></a>
                         }
                         {
-                          product.store1 &&  <a id="hhbnvhj" href={product.storelink1}> <p className="yugfhb" id="address"><b>{product.store1}</b></p></a>
+                          product.store1 && <a id="hhbnvhj" href={product.storelink1}> <p className="yugfhb" id="address"><b>{product.store1}</b></p></a>
                         }
                         {
-                          product.store2 &&  <a id="hhbnvhj" href={product.storelink2}> <p className="yugfhb" id="address"><b>{product.store2}</b></p></a>
+                          product.store2 && <a id="hhbnvhj" href={product.storelink2}> <p className="yugfhb" id="address"><b>{product.store2}</b></p></a>
                         }
                         {
-                          product.store3 &&  <a id="hhbnvhj" href={product.storelink3}> <p className="yugfhb" id="address"><b>{product.store3}</b></p></a>
+                          product.store3 && <a id="hhbnvhj" href={product.storelink3}> <p className="yugfhb" id="address"><b>{product.store3}</b></p></a>
                         }
-                        
+
 
                       </div>
                       <div className="midline" id="ghyjfyg"></div>
@@ -338,19 +338,34 @@ export default function ProductDetail() {
                         <p className="ordersl"><b>{state.secondpara}</b></p>
                         <div className="line"></div>
                         {
-                          product.city && <a id="hhbnvhj" href={product.citylink}> <p className="yugfhb" id="address"><b>{product.city}</b></p></a>
+                          product.city && <div>
+                            <p className="yugfhb" id="address"><b>{product.city}</b></p>
+                            <p>{product.citylink}</p>
+
+                          </div>
                         }
                         {
-                          product.city1 && <a id="hhbnvhj" href={product.citylink1}> <p className="yugfhb" id="address"><b>{product.city1}</b></p></a>
+                          product.city1 && <div>
+                            <p className="yugfhb" id="address"><b>{product.city1}</b></p>
+                            <p>{product.citylink1}</p>
+
+                          </div>
                         }
                         {
-                          product.city2 && <a id="hhbnvhj" href={product.citylink2}> <p className="yugfhb" id="address"><b>{product.city2}</b></p></a>
+                          product.city2 && <div>
+                            <p className="yugfhb" id="address"><b>{product.city2}</b></p>
+                            <p>{product.citylink2}</p>
+
+                          </div>
                         }
                         {
-                          product.city3 && <a id="hhbnvhj" href={product.citylink3}> <p className="yugfhb" id="address"><b>{product.city3}</b></p></a>
-                        }
-            
-                 </div>
+                          product.city3 && <div>
+                            <p className="yugfhb" id="address"><b>{product.city3}</b></p>
+                            <p>{product.citylink3}</p>
+
+                          </div>}
+
+                      </div>
                     </div> : ""
                   }
 
