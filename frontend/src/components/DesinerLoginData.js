@@ -323,17 +323,32 @@ export default function DesinerLoginData({ product }) {
             <p className="ordersl"><b>{state.secondpara}</b></p>
             <div className="line"></div>
             {
-              product.city && <a id="hhbnvhj" href={product.citylink}> <p className="yugfhb" id="address"><b>{product.city}</b></p></a>
-            }
-            {
-              product.city1 && <a id="hhbnvhj" href={product.citylink1}> <p className="yugfhb" id="address"><b>{product.city1}</b></p></a>
-            }
-            {
-              product.city2 && <a id="hhbnvhj" href={product.citylink2}> <p className="yugfhb" id="address"><b>{product.city2}</b></p></a>
-            }
-            {
-              product.city3 && <a id="hhbnvhj" href={product.citylink3}> <p className="yugfhb" id="address"><b>{product.city3}</b></p></a>
-            }
+                          product.city && <div>
+                            <p className="yugfhb" id="address"><b>{product.city}</b></p>
+                            <p>{product.citylink}</p>
+
+                          </div>
+                        }
+                        {
+                          product.city1 && <div>
+                            <p className="yugfhb" id="address"><b>{product.city1}</b></p>
+                            <p>{product.citylink1}</p>
+
+                          </div>
+                        }
+                        {
+                          product.city2 && <div>
+                            <p className="yugfhb" id="address"><b>{product.city2}</b></p>
+                            <p>{product.citylink2}</p>
+
+                          </div>
+                        }
+                        {
+                          product.city3 && <div>
+                            <p className="yugfhb" id="address"><b>{product.city3}</b></p>
+                            <p>{product.citylink3}</p>
+
+                          </div>}
 
      </div>
         </div> : ""
