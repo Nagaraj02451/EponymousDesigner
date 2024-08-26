@@ -182,7 +182,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(241, 241, 241, 1);
+    background-color: rgba(233, 215, 198, 1)    ;
   }
   .tyufyuhg{
     margin-left: auto;
@@ -290,7 +290,7 @@ column-gap: 3vw;
     line-height: 1.0vw;
     font-weight:400 ;
     border: none;
-    background-color: #000;
+    background-color: rgba(233, 215, 198, 1)    ;
     border: none;
 color: white;
 width: 10.7vw;
@@ -309,8 +309,8 @@ border-radius: 2.9vw;
     font-weight:400 ;
     border: none;
     /* -right: 4%; */
-    background-color: #000;
-    border: none;
+    background-color: rgba(233, 215, 198, 1);
+    border: 2px solid #000;
 color: white;
 width: 3.3vw;
 height: 3.2vw;
