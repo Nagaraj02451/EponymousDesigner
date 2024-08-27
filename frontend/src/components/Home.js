@@ -49,7 +49,7 @@ export default function Home() {
             <a href='/' className='jhfgyu'><p>Bags</p></a>
           </div>
           <div className='fyutug'>
-            {/* <a href='/joinus'>
+            <a href='/joinus'>
               <p>
                 <div>Designer <span id='buyfugiyub'>Login/Join Us</span></div>
                 <div>
@@ -57,7 +57,7 @@ export default function Home() {
 
                 </div>
               </p>
-            </a> */}
+            </a>
             { isAuthenticated ? 
             (
               <div className='uyykgu' onClick={() => {
