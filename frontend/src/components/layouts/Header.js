@@ -35,7 +35,7 @@ export default function Header () {
   
         <div className='nav02'>
             <div className='nav02a'>
-            <Link to="/"><div className='nav002'>DESIGNERS</div></Link>
+            <Link to="/alldesigners"><div className='nav002'>DESIGNERS</div></Link>
             <Link to="/about">  <div className='nav002'>ABOUT US</div></Link>
             <Link to="/"><div className='nav002'>JOIN US</div></Link> 
             {/* <Search /> */}
@@ -54,7 +54,7 @@ export default function Header () {
                   <div className='ytfyuu' ref={profileone} >
                  
                       <div onClick={() => {
-                        navigate('/myprofile')
+                        navigate('/designer')
                         profileone.current.classList.remove("hgfiyug")
 
                       }} >Profile</div>
@@ -72,7 +72,7 @@ export default function Header () {
            <div id='gfcyuvii'>
          <Search />
           </div>
-              <a href="/">      <div className='nav003'><img alt='Eponymous' src='/images/profile.svg'></img></div></a>
+              <a href="/login">      <div className='nav003'><img alt='Eponymous' src='/images/profile.svg'></img></div></a>
                      
                
           </div>
