@@ -6,6 +6,8 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { createNewProduct, getProduct, updateProduct } from "../actions/productActions";
 import { clearError, clearProductCreated, clearProductUpdated } from "../slices/productSlice";
 import { toast } from "react-toastify";
+import { logout } from '../actions/userActions';
+
 
 function LoginDesingerUpdate() {
     //   const genius = useRef()
@@ -257,6 +259,12 @@ function LoginDesingerUpdate() {
         })
 
     }
+
+    const logoutHandler = () => {
+        dispatch(logout);
+        navigate('/')
+
+      }
 
     const submitHandler = (e) => {
         e.preventDefault();
@@ -593,13 +601,13 @@ function LoginDesingerUpdate() {
 
             {/* <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a> */}
             <div className='headerlogin'>
-                <div className='innerlogin'><img src='/images/backho.svg' />GO back to Profile</div>
+                <div className='innerlogin'><a className='htyf7u' href='/designer'><img className='yturf67' src='/images/backho.svg' />GO back to Profile </a></div>
             </div>
             <div className='designerdashboard'>
                 <div className='designerdashboardinne'>
                     <div className='firstcontendidign'>
                         <div className='dsignstudio'>
-                            <h1>Brand or Designer name</h1>
+                            <h1>{user.name}</h1>
                             <h2>Montes vitae</h2>
                         </div>
                         <div className='ghjgytyg'>
@@ -1482,6 +1490,8 @@ function LoginDesingerUpdate() {
 
 
                                 <div className='tyugihjok'>
+                                <h6 onClick={logoutHandler} className='accde' >Log Out</h6>
+
                                     <button type='submit' disabled={loading} className='tdrfguhj'  >
                                         SAVE
                                     </button>
