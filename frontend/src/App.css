@@ -622,8 +622,10 @@ justify-content: flex-end;
   margin-top: 4%;
   /* border: 1px solid red; */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .tdrfguhj{
   font-family: nair400Regu;
   font-size: 1.04vw;
